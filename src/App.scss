@@ -1,0 +1,92 @@
+// @import "~antd/dist/antd.less";
+
+// Define variables for common styles
+$primary-color: #1890ff;
+$layout-header-background: $primary-color;
+$layout-trigger-background-color: $primary-color;
+$layout-trigger-color: #fff;
+
+// Define styles for the header
+.ant-layout-header {
+  background-color: $layout-header-background;
+}
+
+.logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+
+// Define styles for the side navbar
+.ant-layout-sider {
+  background-color: #fff;
+  box-shadow: 2px 0 6px rgba(0, 21, 41, 0.35);
+  position: relative;
+  z-index: 999;
+  height: 90vh;
+}
+
+.ant-layout-sider .ant-menu-inline {
+  height: calc(100% - 64px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ant-menu-item {
+  padding: 0 32px;
+  font-size: 16px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.65);
+  transition: background-color 0.3s;
+
+  &.ant-menu-item-selected {
+    color: #fff;
+    background-color: $primary-color;
+  }
+
+  a {
+    color: inherit;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  svg {
+    margin-right: 8px;
+  }
+}
+
+// Define styles for the content area
+.ant-layout-content {
+  margin-top: -20px;
+  padding: 0px 24px 0 24px !important;
+  background-color: #fff;
+  min-height: 280px;
+}
+
+/* width & heiht of scrollbar */
+::-webkit-scrollbar {
+  width: 5px !important;
+  height: 5px !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

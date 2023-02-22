@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"],
+  "lib": ["dom", "dom.iterable", "esnext"],
+  "jsxFactory": "h",
+  "allowJs": true,
+  "skipLibCheck": true,
+  "strict": true,
+  "forceConsistentCasingInFileNames": true,
+  "noEmit": true,
+  "module": "esnext",
+  "moduleResolution": "node",
+  "isolatedModules": true,
+  "incremental": true
+}

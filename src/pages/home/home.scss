@@ -1,0 +1,54 @@
+.my-form-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0;
+
+  form {
+    width: 400px;
+    padding: 24px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    .ant-form-item {
+      margin-bottom: 15px;
+    }
+  }
+
+  .ant-form-item-label {
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
+
+  .ant-btn-group {
+    margin-top: 16px;
+  }
+
+  .ant-btn:not(:last-child) {
+    margin-right: 8px;
+  }
+}
+.employee-add-btn {
+  float: right;
+  margin-right: 25px;
+  button {
+    background-color: teal;
+  }
+  button:not(:disabled):hover {
+    background-color: rgb(7, 208, 208);
+  }
+}
+.employee-table {
+  .ant-table-content {
+    max-height: calc(100vh - 250px);
+    overflow: auto;
+    table {
+      thead {
+        position: sticky;
+        top: 0;
+        background-color: #fff;
+        z-index: 9;
+      }
+    }
+  }
+}

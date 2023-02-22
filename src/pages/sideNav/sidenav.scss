@@ -1,0 +1,24 @@
+.employee-logo {
+  display: inline-block;
+  color: white;
+  font-size: 35px;
+}
+.employee-title {
+  position: absolute;
+  top: -2px;
+  left: 100px;
+}
+.user-profile-name {
+  float: right;
+  color: white;
+}
+.sidenave-menu-list {
+  height: 100% !important;
+  border-right: 0;
+  justify-content: flex-start !important;
+}
+.menuIcon {
+  margin-left: 5px;
+  font-size: 25px;
+  color: dimgrey;
+}
